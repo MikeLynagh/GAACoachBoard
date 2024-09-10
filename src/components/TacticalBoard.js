@@ -173,7 +173,7 @@ const TacticalBoard = () => {
               maxWidth: "1200px",
               aspectRatio: "16 / 9",
               border: "2px solid black",
-              backgroundImage: 'url("%PUBLIC_URL%/gaafield.png")',
+              backgroundImage: `url(${process.env.PUBLIC_URL}/gaafield.png)`,
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
